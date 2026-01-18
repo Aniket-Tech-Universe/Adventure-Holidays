@@ -22,8 +22,8 @@ export default function Contact() {
         <section id="contact" className="section-padding w-full bg-slate-950 relative overflow-hidden">
             {/* Premium Background Effects */}
             <div className="absolute inset-0">
-                <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[120px]" />
-                <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-amber-500/10 rounded-full blur-[100px]" />
+                <div className="absolute top-0 left-1/4 w-150 h-150 bg-cyan-500/10 rounded-full blur-[120px]" />
+                <div className="absolute bottom-0 right-1/4 w-100 h-100 bg-amber-500/10 rounded-full blur-[100px]" />
                 {/* Grid pattern */}
                 <div
                     className="absolute inset-0 opacity-[0.02]"
@@ -54,7 +54,7 @@ export default function Contact() {
                     <div className="space-y-6">
                         {/* Google Map Embed */}
                         <div className="relative rounded-2xl overflow-hidden h-64 lg:h-80 group">
-                            <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-amber-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none" />
+                            <div className="absolute inset-0 bg-linear-to-br from-cyan-500/20 to-amber-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none" />
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.169428!2d73.18097!3d22.31008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ab91a3ddab%3A0xac39d3bfe1473fb8!2sKarelibagh%2C%20Vadodara%2C%20Gujarat%20390018!5e0!3m2!1sen!2sin!4v1704451200000!5m2!1sen!2sin"
                                 width="100%"
@@ -68,7 +68,7 @@ export default function Contact() {
                             {/* Map overlay with address */}
                             <div className="absolute bottom-4 left-4 right-4 z-20">
                                 <div className="glass-card rounded-xl p-4 flex items-center gap-3">
-                                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center flex-shrink-0">
+                                    <div className="w-10 h-10 rounded-lg bg-linear-to-br from-cyan-500 to-cyan-600 flex items-center justify-center shrink-0">
                                         <MapPin className="w-5 h-5 text-white" />
                                     </div>
                                     <div>
@@ -83,7 +83,7 @@ export default function Contact() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <a href="tel:08758700282" className="glass-card rounded-2xl p-5 group hover:border-cyan-500/30 transition-all duration-300">
                                 <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-cyan-500/5 flex items-center justify-center group-hover:scale-110 transition-transform">
+                                    <div className="w-12 h-12 rounded-xl bg-linear-to-br from-cyan-500/20 to-cyan-500/5 flex items-center justify-center group-hover:scale-110 transition-transform">
                                         <Phone className="w-5 h-5 text-cyan-400" />
                                     </div>
                                     <div>
@@ -95,7 +95,7 @@ export default function Contact() {
 
                             <div className="glass-card rounded-2xl p-5">
                                 <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-amber-500/5 flex items-center justify-center">
+                                    <div className="w-12 h-12 rounded-xl bg-linear-to-br from-amber-500/20 to-amber-500/5 flex items-center justify-center">
                                         <Clock className="w-5 h-5 text-amber-400" />
                                     </div>
                                     <div>
@@ -108,19 +108,19 @@ export default function Contact() {
 
                         {/* Features Pills */}
                         <div className="flex flex-wrap gap-3">
-                            <div className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-gradient-to-r from-white/5 to-white/[0.02] border border-white/10 hover:border-cyan-500/30 transition-colors">
+                            <div className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-linear-to-r from-white/5 to-white/2 border border-white/10 hover:border-cyan-500/30 transition-colors">
                                 <Globe className="w-4 h-4 text-cyan-400" />
                                 <span className="text-sm text-slate-300">UAE Visa Expert</span>
                             </div>
-                            <div className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-gradient-to-r from-white/5 to-white/[0.02] border border-white/10 hover:border-amber-500/30 transition-colors">
+                            <div className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-linear-to-r from-white/5 to-white/2 border border-white/10 hover:border-amber-500/30 transition-colors">
                                 <Plane className="w-4 h-4 text-amber-400" />
                                 <span className="text-sm text-slate-300">Flight Bookings</span>
                             </div>
-                            <div className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-gradient-to-r from-white/5 to-white/[0.02] border border-white/10 hover:border-cyan-500/30 transition-colors">
+                            <div className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-linear-to-r from-white/5 to-white/2 border border-white/10 hover:border-cyan-500/30 transition-colors">
                                 <Accessibility className="w-4 h-4 text-cyan-400" />
                                 <span className="text-sm text-slate-300">Accessible</span>
                             </div>
-                            <div className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-gradient-to-r from-white/5 to-white/[0.02] border border-white/10 hover:border-pink-500/30 transition-colors">
+                            <div className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-linear-to-r from-white/5 to-white/2 border border-white/10 hover:border-pink-500/30 transition-colors">
                                 <Heart className="w-4 h-4 text-pink-400" />
                                 <span className="text-sm text-slate-300">LGBTQ+ Friendly</span>
                             </div>
@@ -130,17 +130,17 @@ export default function Contact() {
                     {/* Right Side - Contact Form */}
                     <div className="relative">
                         {/* Form glow effect */}
-                        <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500/20 via-transparent to-amber-500/20 rounded-3xl blur-xl opacity-50" />
+                        <div className="absolute -inset-1 bg-linear-to-r from-cyan-500/20 via-transparent to-amber-500/20 rounded-3xl blur-xl opacity-50" />
 
-                        <div className="relative glass-card rounded-2xl p-6 lg:p-8 border-white/10 hover:border-cyan-500/20 transition-colors min-h-[480px] flex flex-col justify-center">
+                        <div className="relative glass-card rounded-2xl p-6 lg:p-8 border-white/10 hover:border-cyan-500/20 transition-colors min-h-120 flex flex-col justify-center">
                             {isSubmitted ? (
                                 <div className="text-center py-12 animate-in fade-in zoom-in duration-500">
-                                    <div className="w-20 h-20 rounded-full bg-gradient-to-br from-green-500/20 to-green-500/10 flex items-center justify-center mx-auto mb-6">
+                                    <div className="w-20 h-20 rounded-full bg-linear-to-br from-green-500/20 to-green-500/10 flex items-center justify-center mx-auto mb-6">
                                         <CheckCircle2 className="w-10 h-10 text-green-400" />
                                     </div>
                                     <h3 className="text-2xl font-bold text-white mb-3">Message Sent!</h3>
                                     <p className="text-slate-400 mb-8 max-w-xs mx-auto">
-                                        Thanks for reaching out. We'll get back to you within 24 hours.
+                                        Thanks for reaching out. We&apos;ll get back to you within 24 hours.
                                     </p>
                                     <button
                                         onClick={() => setIsSubmitted(false)}
@@ -152,12 +152,12 @@ export default function Contact() {
                             ) : (
                                 <>
                                     <div className="flex items-center gap-3 mb-6">
-                                        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center">
+                                        <div className="w-10 h-10 rounded-xl bg-linear-to-br from-cyan-500 to-cyan-600 flex items-center justify-center">
                                             <Send className="w-5 h-5 text-white" />
                                         </div>
                                         <div>
                                             <h3 className="text-xl font-bold text-white">Send Us a Message</h3>
-                                            <p className="text-sm text-slate-400">We'll respond within 24 hours</p>
+                                            <p className="text-sm text-slate-400">We&apos;ll respond within 24 hours</p>
                                         </div>
                                     </div>
 
@@ -257,9 +257,9 @@ export default function Contact() {
                                         <button
                                             type="submit"
                                             disabled={isSubmitting}
-                                            className="w-full relative group overflow-hidden px-6 py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed"
+                                            className="w-full relative group overflow-hidden px-6 py-4 rounded-xl bg-linear-to-r from-cyan-500 to-cyan-600 text-white font-semibold shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed"
                                         >
-                                            <span className={`absolute inset-0 bg-gradient-to-r from-cyan-400 to-amber-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${isSubmitting ? 'hidden' : ''}`} />
+                                            <span className={`absolute inset-0 bg-linear-to-r from-cyan-400 to-amber-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${isSubmitting ? 'hidden' : ''}`} />
                                             <span className="relative flex items-center justify-center gap-2">
                                                 {isSubmitting ? (
                                                     <>
