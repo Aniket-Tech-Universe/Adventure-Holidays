@@ -8,6 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+    metadataBase: new URL("https://adventure-holidays.vercel.app"),
     title: "Adventure Holidays | Travel Agency in Vadodara, Gujarat",
     description: "Discover unforgettable adventures with Gujarat's premier travel agency. Book adventure tours, cultural trips, family packages, and more. Located in Vadodara.",
     keywords: "travel agency, Vadodara, Gujarat, adventure tours, holiday packages, tourism",
